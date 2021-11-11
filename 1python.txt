@@ -1,0 +1,87 @@
+python 
+
+ex1)---------------------------------------------
+input>
+문자열로 반환 됨, int()로 감싸야 됨
+입력속도
+sys.stdin.readline > raw_input() > input()
+
+리스트
+list = []
+list.append()
+len(list) 리스트 사이즈
+
+반복문
+for i in range():
+	문장
+
+for i in range(start, stop, step):
+start, step 생략 되면 0, 1 값
+
+함수
+def print_address(name):
+	print("dhfkls")
+	retrun n
+
+
+ex2)------------------------------------------------
+큐에서 pop
+queue.pop(0)
+
+
+ex3)-----------------------------------------------
+del(예약어)
+del array [인덱스]
+
+remove()
+array.remove(x)
+
+빈 리스트 만들기
+a=list()
+
+a.insert(a, b) 
+리스트의 a번째 위치에 b를 삽입
+
+StrA = "".join(A)
+각 문자열 사이에 삽입
+
+
+
+split() :  문자열 내부에 있는 공백 또는 특별한 문자를 구분해서, 리스트 아이템으로 만듦
+strip() :  문자열 앞뒤의 공백 또는 특별한 문자 삭제
+
+Python 논리연산자는 and, or 
+
+
+ex4)-------------------------------------------------
+import sys
+sys.setrecursionlimit(10 ** 6)
+파이썬의 기본 재귀 깊이 제한은 1000
+
+map
+리스트의 요소를 지정된 함수로 처리
+ex) 문자열 -> 정수 변환
+
+list안에서 for
+[0 for j in range(2)]로 0을 2번 반복하여 [0]
+
+dfs 깊이 우선 탐색
+bfs 너비 우선 탐색
+
+
+ex5)-------------------------------------------------
+[] array
+
+() tuple
+
+{} dictionary
+
+set 집합에 관련된 것을 쉽게 처리
+
+
+ex6)------------------------------------------------
+
+
+----------------------------------------
+and or
+

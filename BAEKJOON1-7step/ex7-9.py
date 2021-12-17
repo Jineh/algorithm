@@ -1,9 +1,8 @@
 import sys
-str = sys.stdin.readline()
-number = ['ABC','DEF', 'GHI','JKL','MNO','PQRS','TUV','WXYZ']
-result=0
+str = sys.stdin.readline().strip()
 
-for i in str:
-    print(i)
+croatia = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
 
-print('jhkl')
+for i in croatia:
+    str = str.replace(i,'*')
+print(len(str))

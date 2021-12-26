@@ -1,4 +1,4 @@
-def isPalindrome(self, head: ListNode) -> bool:
+def isPalindrome(head):
     reverse = None
     slow = fast = head
 

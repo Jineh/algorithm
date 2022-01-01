@@ -21,7 +21,6 @@ class Solution:
                 node = node.left
 
             node = stack.pop()
-            print(result)
             result = min(result, node.val - prev)
             
             prev = node.val

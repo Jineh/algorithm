@@ -18,7 +18,6 @@ class Solution:
                 left = self.diffWaysToCompute(input[:index])
                 right = self.diffWaysToCompute(input[:index + 1:])
 
-                print(left, right)
                 results.extend(compute(left, right, value))
         return results
     

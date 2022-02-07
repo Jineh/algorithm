@@ -2,7 +2,7 @@ import sys
 
 n =int(sys.stdin.readline())
 a=list(map(int, sys.stdin.readline().split()))
-ave = round(sum(a)/n)   # 소수 첫 번째 자리에서 반올림
+ave = int((sum(a)/n) + 0.5)  # 소수 첫 번째 자리에서 반올림
 min = 2147000000
 
 for idx, x in enumerate(a):

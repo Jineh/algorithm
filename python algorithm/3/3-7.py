@@ -1,11 +1,17 @@
 import sys
 
 n = int(sys.stdin.readline())
-a=[]
-mySum=0
-m = n//2 
-for i in range(0, m, 2):
-        mySum=sum(a[m-1:m-1+i])
+a=[list(map(int, sys.stdin.readline().split()))for _ in range(n)]   # n번 이중 배열
 
-for i in range(n-3, 0, -2):
-        mySum=sum(a[m-1:m-1+i])
+res=0
+s=e= n//2       # 다이아 절반 
+for i in range(n):
+        for j in range(s, e+1):
+                res+=a[i][j]
+        if i<n//2:
+                s-=1
+                e+=1
+        else:
+                s+=1
+                e-=1
+print(res)

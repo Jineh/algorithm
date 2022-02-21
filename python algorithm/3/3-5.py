@@ -7,9 +7,10 @@ rt=1
 tot=a[0]
 count =0 
 
+# 두 개의 포인터로 이동
 while True:
     if tot<m:
-        if rt<n:
+        if rt<n:    # 맨 끝을 가리키면 break
             tot+=a[rt]
             rt+=1
         else:

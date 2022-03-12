@@ -1,5 +1,5 @@
 import sys
-board = [list(map(int, sys.stdin().readline().split())) for _ in range(7)]
+board = [list(map(int, sys.stdin.readline().split())) for _ in range(7)]
 cnt =0
 for i in range(3):
     for j in range(7):  # 행 검사

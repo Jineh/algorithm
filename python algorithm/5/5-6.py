@@ -6,7 +6,7 @@ Q=deque(Q)
 cnt=0
 while True:
     cur=Q.popleft()
-    if any(cur[1]<x[1] for x in Q):     # 하나라도 맞으면 참
+    if any(cur[1]<x[1] for x in Q):     # any = 하나라도 맞으면 참
         Q.append(cur)
     else:
         cnt+=1

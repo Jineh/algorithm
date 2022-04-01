@@ -19,5 +19,5 @@ for key, val in p.items():
 #     q.append(sys.stdin.readline())
 # for i in range(n-1):
 #     x= sys.stdin.readline()
-#     q.remove(x)
-# print(q.pop())
+#     q.remove(x)       # 같은 것은 제거
+# print(q.pop())        # 남은 것 출력

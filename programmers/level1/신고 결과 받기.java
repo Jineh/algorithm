@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+
 class Solution {
     public int[] solution(String[] id_list, String[] report, int k) {
         int[] answer = new int [id_list.length];
@@ -21,7 +25,7 @@ class Solution {
             HashSet<String> send = map.get(id_list[i]);
             if (send.size() >= k) {
                 for (String name : send) {
-                    answer[idxMap.get(name)]++;
+                    answer[idx.get(name)]++;
                 }
             }
         }

@@ -19,11 +19,5 @@ public class G1464 {
 
         }
         System.out.println(a.toString());
-
-
-
-
-
-
     }
 }

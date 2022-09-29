@@ -1,0 +1,12 @@
+*.py
+*.js
+*.xml
+
+
+### Java ###
+# Compiled class file
+*.class
+
+
+.idea
+*.iml

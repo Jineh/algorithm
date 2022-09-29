@@ -8,11 +8,3 @@
 /httpRequests/
 
 
-*.py
-*.js
-*.xml
-
-
-### Java ###
-# Compiled class file
-*.class

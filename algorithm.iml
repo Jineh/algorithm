@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/programmers/dev-matching" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/programmers_test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/programmers_test/dev-matching" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programmers/hash" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programmers/level23" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

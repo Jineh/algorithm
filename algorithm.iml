@@ -6,13 +6,13 @@
       <sourceFolder url="file://$MODULE_DIR$/CodeUp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/programmers/level1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/baekjoon-java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/programmers/dev-matching" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/programmers_test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/programmers_test/dev-matching" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/programmers/hash" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/programmers/level23" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/programmers/level3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/sw" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

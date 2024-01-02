@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class P42884 {
     public int solution(int[][] routes) {
         int answer = 0;
